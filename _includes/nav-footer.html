@@ -2,8 +2,15 @@
 <nav class="nav  nav--footer">
   <ul class="list list--nav">
     {% for item in site.navigation_footer %}
-      <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
-        <a href="{{ item[1] }}" title="Page - {{ item[0] }}">{{ item[0] }}</a>
+
+      {% if item.url contains '://' %}
+        {% assign url = item.url %}
+      {% else %}
+        {% assign url = item.url | relative_url %}
+      {% endif %}
+
+      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+        <a href="{{ url }}">{{ item.title }}</a>
       </li>
     {% endfor %}
   </ul>
