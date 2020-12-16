@@ -1,7 +1,8 @@
 # - name: Home
 #   link: /
 - name: Blog
-  link: /blog.html
+  link: /
+  # link: /blog.html
 - name: Projects
   link: /projects.html
 - name: Categories
