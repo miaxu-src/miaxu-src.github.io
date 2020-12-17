@@ -1,11 +1,10 @@
 # - name: Home
 #   link: /
 - name: Blog
-  link: /
-  # link: /blog.html
+  link: /blog.html
 - name: Projects
   link: /projects.html
 - name: Categories
-  link: /staff.html
+  link: /category.html
 - name: About
   link: /about.html
