@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Category
 ---
+TBD
 <!-- <h1>Category</h1> -->
 
 <!-- <ul> -->
