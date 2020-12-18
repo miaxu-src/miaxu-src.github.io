@@ -1,11 +1,34 @@
 .nav_align {
     margin: auto;
-    width: 50%;
+    width: 90%;
     text-align: center;
     font-family: Cursive;
+    font-size: x-large;
+    word-spacing: 1em;
 }
 
 .current {
     color: green;
     font-weight: bold;
+}
+
+.bg_container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.bg_centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.content {
+    margin: auto;
+    width: 75%;
+    text-align: left;
 }
