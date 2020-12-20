@@ -8,7 +8,6 @@
 }
 
 .nav_current {
-    color: green;
     font-weight: bold;
 }
 
@@ -27,8 +26,28 @@
     font-size: 150%;
 }
 
-.content {
+.bd_content {
     margin: auto;
     width: 75%;
     text-align: left;
+}
+
+
+// hightlight for program language
+.lineno { 
+  color: #ccc; 
+  display: inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc;
+}
+
+.highlight table td.gutter {
+    width: 10px;
+    padding-right: 1em;
+    color: #bdc1c4;
+}
+
+.language-plaintext {
+    font-weight: bold;
+    background: #eef;
 }
