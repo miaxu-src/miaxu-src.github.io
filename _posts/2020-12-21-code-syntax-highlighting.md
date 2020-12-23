@@ -1,5 +1,6 @@
 ---
 layout: post
+category: jekyll
 ---
 
 Jekyll supports source code syntax highlighting. However, I found an issue for the theme "minima" that comes with `jekyll new my-website`: If I want to showe line numbers for my code block, too much white space is rendered between a line number and my source code. To avoid the hassel of dealing with the default theme, here is what I have done.

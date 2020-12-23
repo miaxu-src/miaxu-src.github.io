@@ -1,5 +1,6 @@
 ---
 layout: post
+category: jekyll
 ---
 
 Welcome to my GitHub Pages! This website is built up with the help of Jekyll, a static site generator. As my first blog, here I'm providing a brief summary of steps that I followed to setup this site using Jekyll.
