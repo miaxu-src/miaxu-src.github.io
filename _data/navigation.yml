@@ -2,8 +2,8 @@
 #   link: /
 - name: Blog
   link: /blog.html
-- name: Projects
-  link: /projects.html
+# - name: Projects
+#   link: /projects.html
 - name: Categories
   link: /category.html
 - name: About

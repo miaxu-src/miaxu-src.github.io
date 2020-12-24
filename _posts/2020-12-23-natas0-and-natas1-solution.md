@@ -2,7 +2,7 @@
 category: natas
 ---
 
-In this series, I will dive into <a href="https://overthewire.org/wargames/natas/">Natas</a>, a CTF-like wargame offered by the OverTheWire community. Natas teaches the basics of server-side web application security and covers many of OWASP Top Ten Web Application Security Risks. It consists of different levels, and each level contains the password to the next level. In this wargame, your job is to crack that each password and level up.
+In this series, I will dive into <a href="https://overthewire.org/wargames/natas/">Natas</a>, a CTF-like wargame offered by the OverTheWire community. Natas teaches the basics of server-side web application security and covers many of OWASP Top Ten Web Application Security Risks. It consists of different levels, and each level contains the password to the next level. In this wargame, your job is to crack each password and level up.
 
 Let's start with natas0. According to the hint on that webpage, the password for the next level is on this page. Right click and view page source. There is the password for level 1: <small>gtVrDuiDfck831PqWsLEZy5gyDz1clto</small>.
 
