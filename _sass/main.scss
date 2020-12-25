@@ -1,3 +1,14 @@
+div.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.header {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .nav_align {
     margin: auto;
     width: 90%;
