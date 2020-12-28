@@ -1,0 +1,29 @@
+<br/>
+<table style="width: 100%; table-layout: fixed;">
+    <tr>
+        <th style="text-align: left;">&laquo;Prev</th>
+        <th style="text-align: center;">More About</th>
+        <th style="text-align: right;">Next&raquo;</th>
+    </tr>
+    <tr>
+        <td style="text-align: left;">
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+            {% endif %}
+        </td>
+
+        <td style="text-align: center;">
+            {% assign category = site.categories | where: 'short_name', page.category | first %}
+            {% if category %}
+            <a href="{{ category.url }}">{{ category.name }}</a>
+            {% endif %}
+        </td>
+
+        <td style="text-align: right;">
+            {% if page.next.url %}
+            <a href="{{page.next.url}}">{{page.next.title}}</a>
+            {% endif %}
+        </td>
+    </tr>
+</table>
+
