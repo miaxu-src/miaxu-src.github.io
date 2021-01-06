@@ -61,6 +61,14 @@ small {
   border-right:1px solid #ccc;
 }
 
+.highlight {
+    margin: 1em 0;
+}
+
+pre.highlight {
+    padding: 1em;
+}
+
 .highlight table td.gutter {
     width: 10px;
     padding-right: 1em;
