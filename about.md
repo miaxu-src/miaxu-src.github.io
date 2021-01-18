@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-# About page
+# About Me
 
-This page tells you a little bit about me.
+Just another software engineer and security researcher. I enjoy what I'm doing right now. Sometimes I also dream of teaching courses and helping people with active learning.
