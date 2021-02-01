@@ -1,5 +1,6 @@
 ---
 category: natas
+title: Natas5 - HTTP Cookie
 ---
 website: http://natas5.natas.labs.overthewire.org/ (password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq)
 

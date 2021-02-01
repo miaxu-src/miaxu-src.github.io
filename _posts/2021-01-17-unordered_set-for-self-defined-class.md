@@ -1,5 +1,6 @@
 ---
 category: program
+title: unordered_set for Self-defined Class
 ---
 
 In this article, I will show you how to use `unordered_set` for a self-defined class.

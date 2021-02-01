@@ -1,5 +1,6 @@
 ---
 category: natas
+title: Natas4 - HTTP Referer
 ---
 website: http://natas4.natas.labs.overthewire.org/ (password: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ)
 

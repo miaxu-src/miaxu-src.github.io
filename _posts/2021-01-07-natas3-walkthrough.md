@@ -1,5 +1,6 @@
 ---
 category: natas
+title: Natas3 - robots.txt
 ---
 website: http://natas3.natas.labs.overthewire.org (password: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14)
 

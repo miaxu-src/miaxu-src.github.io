@@ -1,5 +1,6 @@
 ---
 category: natas
+title: Natas2 - Directory Indexing Vulnerability
 ---
 website: http://natas2.natas.labs.overthewire.org (Password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi)
 

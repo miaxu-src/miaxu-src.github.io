@@ -1,6 +1,6 @@
 ---
 category: natas
-title: Natas7 Walkthrough - File Inclusion Vulnerability
+title: Natas7 - File Inclusion Vulnerability
 ---
 
 website: http://natas7.natas.labs.overthewire.org/ (password: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9)
