@@ -26,17 +26,18 @@ As shown above, it uses the Linux `grep` command to achieve the goal. More impor
 In the PHP document, it mentions:
 - <em>Warning: When allowing user-supplied data to be passed to this function, use escapeshellarg() or escapeshellcmd() to ensure that users cannot trick the system into executing arbitrary commands</em>.
 
-The notice in the PHP document reminds me of command injection. In fact, the `grep` command can be used to grep multiple files, which are separated by spaces. With that information in mind, I provided the following input <small>. /etc/natas_webpass/natas10</small> in the textbox. The output of the website given my input is:
+The notice in the PHP document reminds me of command injection. Here we can come up with this input <small>; cat /etc/natas_webpass/natas10 #</small>. The output of the website given my input is:
 
 ```raw
     Output:
-    /etc/natas_webpass/natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
-    dictionary.txt:African
-    dictionary.txt:Africans
-    ... <skip lines below>
+    nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
 ```
 
-As you can see, the `grep` command has searched the wildcards <small>.</small> in the file <small>/etc/natas_webpass/natas10</small> as well due to the space between the wildcards and the file name.
+As you can see, by injecting a Linux command `cat /etc/natas_webpass/natas10`, we successfully acquired the password for the next level.
+
+Here I'm providing more details about the `passthru` and my input:
+
+What the `passthru` does is that it uses the shell to launch a program and passes my input to execute to the shell. It leaves the task of breaking up the command’s arguments to the shell. As a result, the special characters in my input such as `;` and `#` are recognized and interpreted by the shell. In the Linux shell, the symbol `;` is a separator between two commands and the symbol `#` is a leading character of comments. As such, `passthru` considers there are two commands, one is the `grep` command and the other is the `cat /etc/natas_webpass/natas10` command.
 
 <strong>CONCLUSION</strong>
 
