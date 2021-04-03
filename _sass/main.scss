@@ -43,6 +43,25 @@ h1.header {
     text-align: left;
 }
 
+figure {
+    display: inline-block;
+    //border: 1px dotted gray;
+    //margin: 20px; /* adjust as needed */
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+figure figcaption {
+    //border: 1px dotted blue;
+    margin-top: 10px;
+    text-align: center;
+}
+
 mark {
     background-color: #ccbb;
     font-family: "Lucida Console", "Courier New", monospace;

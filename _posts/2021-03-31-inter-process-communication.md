@@ -23,6 +23,11 @@ One writes data into the pipe at one end, and the other reads data from the pipe
 If the buffer is full, the process which writes data will be put into sleep until the other one reads data.
 Similarly, if the buffer is empty, the process which reads data will be put into sleep until there are new data to read.
 
+<figure>
+<img src="/assets/images/posts/pipe.png" width="40%" alt="Pipe" />
+<figcaption>Fig. 1: Inter-Process Communication via Pipe</figcaption>
+</figure>
+
 Pipe is half duplex. That means, data flows in only one direction. If you need two-way communication, then you will have
 to create two separate pipes. Another limitation of pipe is that it only works between processes that have a common ancestor,
 e.g., two processes that have parent-child relationship or sibling relationship.
