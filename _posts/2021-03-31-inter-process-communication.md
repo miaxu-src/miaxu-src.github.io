@@ -52,4 +52,4 @@ For an open for write-only, it returns -1 and set `errno` to `ENXIO` if no proce
 - Advanced Programming in the UNIX Environment:
 <a href="http://poincare.matf.bg.ac.rs/~ivana/courses/ps/sistemi_knjige/pomocno/apue/APUE/0201433079/ch15lev1sec5.html#ch15lev1sec5">15.5. FIFOs</a>
 
-
+<strong>(To be continued...)</strong>
