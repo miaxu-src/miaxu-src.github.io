@@ -3,7 +3,7 @@ category: program
 title: Inter-process communication - Part 2
 ---
 
-In <a href="https://miaxu-src.github.io/program/2021/03/31/inter-process-communication.html">this blog</a>,
+In <a href="https://miaxu-src.github.io/program/2021/03/31/inter-process-communication.html">the last blog</a>,
 I have discussed two IPC methods: Pipe and FIFO. In this blog, I will continue this topic and talk about
 two other IPC methods: Signal and Semaphores.
 
