@@ -30,7 +30,7 @@ if(array_key_exists("passwd",$_REQUEST)){
 }
 ```
 
-To verify, put the string `11iloveyou` in the textbox and submit, you will get the password for natas24:
+To verify, put the string <small>11iloveyou</small> in the textbox and submit, you will get the password for natas24:
 <small>OsRmXFguozKpTZZ5X14zNO43379LZveg</small>.
 
 
