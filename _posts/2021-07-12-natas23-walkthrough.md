@@ -5,7 +5,7 @@ title: Natas23 - Comparison between string and integer in PHP
 
 website: http://natas23.natas.labs.overthewire.org/ (password: D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE)
 
-This challenge is very straightforward if you are familiar with the comparison between a string and an integer in PHP. Let's take a look at what is the result of the following comparisons:
+This challenge is not so hard if you are familiar with the comparison between a string and an integer in PHP. Let's take a look at what is the result of the following comparisons:
 - `if ( "iloveyou" > 10 )`
 - `if ( "2iloveyou" > 10 )`
 - `if ( "22iloveyou" > 10 )`
