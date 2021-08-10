@@ -1,6 +1,6 @@
 ---
 category: natas
-title: Natas23 - Comparison between string and integer in PHP
+title: Natas23 - Comparing string and integer in PHP
 ---
 
 website: http://natas23.natas.labs.overthewire.org/ (password: D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE)
