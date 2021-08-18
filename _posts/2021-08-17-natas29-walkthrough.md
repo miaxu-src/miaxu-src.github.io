@@ -93,6 +93,7 @@ This can be used to bypass file extension restricts.
 ```plain
     $ perl -e 'open($fd, "|pwd") or die "Failed"'
     /tmp
+
     $ perl -e 'open($fd, "<", "|pwd") or die "Failed"'
     Failed at -e line 1.
 ```
