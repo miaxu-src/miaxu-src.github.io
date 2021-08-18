@@ -92,7 +92,7 @@ I was also given some other hints by my friend:
 This injection will help us to show the password for all users in the table.
 
 
-Thanks to <a href="https://axcheron.github.io/writeups/otw/natas/#natas-28-solution">this blog</a>, I borrowed the final solution there and solved (kind of cheating) the problem.
+Thanks to Alexandre, I borrowed his solution and (kind of cheating) solved the problem.
 It revealed that natas29's password is <small>airooCaiseiyee8he8xongien9euhe8b</small>.
 
 
