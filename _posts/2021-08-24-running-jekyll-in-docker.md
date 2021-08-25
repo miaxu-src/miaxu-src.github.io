@@ -19,6 +19,10 @@ then you can use `-v $(pwd)` for convenience.
 2. The `-p` parameter specifies the published ports on the host and the docker container.
 You can type "http://localhost" in your host's browser to check your post in real time.
 
+Once the container is created, to start this container the next time, you can use the command below:
+`docker start -ai miaxu-src`.
+
+
 <strong>Reference</strong>
 
 https://github.com/BretFisher/jekyll-serve
